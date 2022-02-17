@@ -1,0 +1,134 @@
+        body {
+            background-image: margin: auto;
+        }
+        
+        .circulo {
+            position: absolute;
+            top: 150px;
+            left: 700px;
+            width: 250px;
+            height: 250px;
+            background-color: #434949;
+            border-radius: 250px;
+        }
+        
+        .retangulo_maior {
+            position: absolute;
+            width: 740px;
+            height: 100%;
+            left: 85px;
+            top: 0px;
+            background-color: #434949;
+        }
+        
+        .retangulo_esquerda {
+            position: absolute;
+            width: 200px;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+            background: #0C0A0A;
+        }
+        
+        .jessphoto {
+            position: absolute;
+            width: auto;
+            height: 100%;
+            left: 825px;
+            top: 0px;
+            margin: auto;
+        }
+        
+        .insta {
+            position: absolute;
+            width: 38px;
+            height: 38px;
+            left: 30px;
+            top: 350px
+        }
+        
+        .face {
+            position: absolute;
+            width: 38px;
+            height: 38px;
+            left: 30px;
+            top: 450px
+        }
+        
+        .linkedin {
+            position: absolute;
+            width: 38px;
+            height: 38px;
+            left: 30px;
+            top: 550px
+        }
+        
+        #nomejess {
+            position: absolute;
+            font-size: 50px;
+            top: 200px;
+            left: 775px;
+            color: #1DB4D4;
+            font-family: 'Shadows Into Light Two', cursive;
+        }
+        
+        #nomegasque {
+            position: absolute;
+            font-size: 70px;
+            top: 240px;
+            left: 730px;
+            color: #1DB4D4;
+            font-family: 'Shadows Into Light Two', cursive;
+        }
+        
+        #studant {
+            position: absolute;
+            font-size: 30px;
+            top: 250px;
+            left: 160px;
+            color: #1DB4D4;
+            font-family: 'Shadows Into Light Two', cursive;
+        }
+        
+        .botao {
+            position: absolute;
+            top: 680px;
+            left: 350px;
+            width: 180px;
+            height: 50px;
+            background-color: #434949;
+            border: #1DB4D4 solid;
+            border-radius: 50px;
+        }
+        
+        .botao:before {
+            border: none;
+            border-radius: 50px;
+            content: "";
+            bottom: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            padding: 5px;
+            position: absolute;
+        }
+        
+        .botao:after {
+            background: none;
+            border-radius: 50px;
+            content: "";
+            bottom: 15px;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            position: absolute;
+        }
+        
+        #contato {
+            position: absolute;
+            font-size: 30px;
+            top: 655px;
+            left: 378px;
+            color: #28F19C;
+            font-family: 'Shadows Into Light Two', cursive;
+        }
